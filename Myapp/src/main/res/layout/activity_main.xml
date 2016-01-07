@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Serializable"
+        android:text="Serializable" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Parcelable"
+        android:text="Parcelable" />
+
+
+
+    <com.example.fewwind.myfirst.view.SimpleView
+        android:layout_width="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:src="@drawable/icon_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/id_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        app:backgroundTint="#ff87ffeb"
+        app:elevation="6dp"
+        app:borderWidth="0dp"
+        android:layout_margin="5dp"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="#33728dff">
+
+    </android.support.design.widget.FloatingActionButton>
+
+</LinearLayout>
